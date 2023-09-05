@@ -1,0 +1,204 @@
+[00:01:31.313] ===> HandleTelH115()
+[00:01:31.313] --- HandleTelH115() ---
+               header:       msg->hdrID = 115, telLen = 120, telCnt = 19876
+               body          clrSOK= 1 , clrAlarmWord= 0
+                             clrEventWord= 0,trqBndRfC= 136.742 ,tenPrRf= 20.651 ,tenClrRf= 26.231 , tensStrClr= 9.800
+                             yieldClr= 285.043,spWeight= 7850.000 ,thkCle= 2.320 ,thkCold= 2.300 , widCold= 1250.000
+                             widCle= 1272.849,lenStrip= 1103.080 ,gradeNdx= 49 ,gradeFam= 1 , vssFmx= 10.934
+                             clrSpare01A= 0,clrSpare01B= 0 ,clrSpare02= 0 ,headInZone= 13 , ceTmpAim= 680.000
+                             slabId= D353506300, steelGrade= NNB2
+
+[00:01:31.314] <=== HandleTelH115()
+[00:01:24.136] ===> HandleTelH115()
+[00:01:24.136] --- HandleTelH115() ---
+               header:       msg->hdrID = 115, telLen = 120, telCnt = 19875
+               body          clrSOK= 1 , clrAlarmWord= 0
+                             clrEventWord= 0,trqBndRfC= 136.742 ,tenPrRf= 20.651 ,tenClrRf= 26.231 , tensStrClr= 9.800
+                             yieldClr= 285.043,spWeight= 7850.000 ,thkCle= 2.320 ,thkCold= 2.300 , widCold= 1250.000
+                             widCle= 1272.849,lenStrip= 1103.080 ,gradeNdx= 49 ,gradeFam= 1 , vssFmx= 10.934
+                             clrSpare01A= 0,clrSpare01B= 0 ,clrSpare02= 0 ,headInZone= 11 , ceTmpAim= 680.000
+                             slabId= D353506300, steelGrade= NNB2
+               
+[00:01:24.137] <=== HandleTelH115()
+[00:01:24.152] ===> HandleTelH2150()
+[00:01:24.152] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356250
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 6.920 ,clrLinSpd= 6.888 , clrTen= -32530.168
+                             clrPrTen= 55096.477,clrState= 3372 ,clrSlowDownRef= 6.769 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:24.153] <=== HandleTelH2150()
+[00:01:24.549] ===> HandleTelH2150()
+[00:01:24.549] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356260
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 6.425 ,clrLinSpd= 6.402 , clrTen= -32307.227
+                             clrPrTen= 54889.461,clrState= 3372 ,clrSlowDownRef= 6.333 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:24.549] <=== HandleTelH2150()
+[00:01:24.949] ===> HandleTelH2150()
+[00:01:24.949] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356270
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 5.960 ,clrLinSpd= 5.984 , clrTen= -33294.031
+                             clrPrTen= 57725.809,clrState= 3372 ,clrSlowDownRef= 5.936 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:24.949] <=== HandleTelH2150()
+[00:01:25.349] ===> HandleTelH2150()
+[00:01:25.349] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356280
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 5.702 ,clrLinSpd= 5.670 , clrTen= -33053.805
+                             clrPrTen= 63680.164,clrState= 3372 ,clrSlowDownRef= 5.551 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:25.350] <=== HandleTelH2150()
+[00:01:25.749] ===> HandleTelH2150()
+[00:01:25.749] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356290
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 5.377 ,clrLinSpd= 5.355 , clrTen= -32330.012
+                             clrPrTen= 62558.898,clrState= 3372 ,clrSlowDownRef= 5.142 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:25.750] <=== HandleTelH2150()
+[00:01:25.908] ===> HandleTelH1150()
+[00:01:25.908] --- HandleTelH1150() ---
+               header:       telId = 1150, telLen = 8, telCnt = 493900
+               
+[00:01:25.908] <=== HandleTelH1150()
+[00:01:26.148] ===> HandleTelH2150()
+[00:01:26.148] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356300
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 4.918 ,clrLinSpd= 4.884 , clrTen= -32934.758
+                             clrPrTen= 52162.133,clrState= 3372 ,clrSlowDownRef= 4.725 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:26.149] <=== HandleTelH2150()
+[00:01:26.549] ===> HandleTelH2150()
+[00:01:26.549] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356310
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 4.459 ,clrLinSpd= 4.430 , clrTen= -32579.164
+                             clrPrTen= 49448.066,clrState= 3372 ,clrSlowDownRef= 4.311 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:26.549] <=== HandleTelH2150()
+[00:01:26.950] ===> HandleTelH2150()
+[00:01:26.950] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356320
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 4.040 ,clrLinSpd= 3.998 , clrTen= -32533.043
+                             clrPrTen= 49419.051,clrState= 3372 ,clrSlowDownRef= 3.904 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:26.950] <=== HandleTelH2150()
+[00:01:27.349] ===> HandleTelH2150()
+[00:01:27.349] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356330
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 3.616 ,clrLinSpd= 3.579 , clrTen= -32437.576
+                             clrPrTen= 49132.801,clrState= 3372 ,clrSlowDownRef= 3.505 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:27.349] <=== HandleTelH2150()
+[00:01:27.747] ===> HandleTelH2150()
+[00:01:27.747] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356340
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 3.218 ,clrLinSpd= 3.190 , clrTen= -32504.041
+                             clrPrTen= 50567.277,clrState= 3372 ,clrSlowDownRef= 3.099 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:27.748] <=== HandleTelH2150()
+[00:01:28.149] ===> HandleTelH2150()
+[00:01:28.149] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356350
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 2.319 ,clrLinSpd= 3.085 , clrTen= -31671.406
+                             clrPrTen= 49713.402,clrState= 3372 ,clrSlowDownRef= 2.700 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:28.150] <=== HandleTelH2150()
+[00:01:28.548] ===> HandleTelH2150()
+[00:01:28.548] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356360
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 2.360 ,clrLinSpd= 2.884 , clrTen= 20609.793
+                             clrPrTen= 0.000,clrState= 3372 ,clrSlowDownRef= 2.252 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:28.549] <=== HandleTelH2150()
+[00:01:28.949] ===> HandleTelH2150()
+[00:01:28.949] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356370
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 1.820 ,clrLinSpd= 1.871 , clrTen= 11896.888
+                             clrPrTen= 0.000,clrState= 3372 ,clrSlowDownRef= 1.763 ,clrSlowDownDist= -120.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506100
+               
+[00:01:28.950] <=== HandleTelH2150()
+[00:01:29.313] ===> HandleTelH1150()
+[00:01:29.313] --- HandleTelH1150() ---
+               header:       telId = 1150, telLen = 8, telCnt = 493910
+               
+[00:01:29.313] <=== HandleTelH1150()
+[00:01:29.350] ===> HandleTelH2150()
+[00:01:29.350] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356380
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 1.471 ,clrLinSpd= 1.109 , clrTen= 17335.320
+                             clrPrTen= 0.000,clrState= 3361 ,clrSlowDownRef= 1.000 ,clrSlowDownDist= -147.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506200
+               
+[00:01:29.351] <=== HandleTelH2150()
+[00:01:29.748] ===> HandleTelH2150()
+[00:01:29.748] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356390
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 1.130 ,clrLinSpd= 1.110 , clrTen= -78308.078
+                             clrPrTen= 0.000,clrState= 3361 ,clrSlowDownRef= 1.000 ,clrSlowDownDist= -147.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506200
+               
+[00:01:29.749] <=== HandleTelH2150()
+[00:01:30.148] ===> HandleTelH2150()
+[00:01:30.148] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356400
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 0.992 ,clrLinSpd= 1.111 , clrTen= -8752.367
+                             clrPrTen= 0.000,clrState= 3361 ,clrSlowDownRef= 1.000 ,clrSlowDownDist= -147.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506200
+               
+[00:01:30.149] <=== HandleTelH2150()
+[00:01:30.549] ===> HandleTelH2150()
+[00:01:30.549] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356410
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 0.999 ,clrLinSpd= 1.109 , clrTen= -164.835
+                             clrPrTen= 0.000,clrState= 3361 ,clrSlowDownRef= 1.000 ,clrSlowDownDist= -147.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506200
+               
+[00:01:30.550] <=== HandleTelH2150()
+[00:01:30.948] ===> HandleTelH2150()
+[00:01:30.948] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356420
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 1.001 ,clrLinSpd= 1.108 , clrTen= 472.519
+                             clrPrTen= 0.000,clrState= 3361 ,clrSlowDownRef= 1.000 ,clrSlowDownDist= -147.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506200
+               
+[00:01:30.949] <=== HandleTelH2150()
+[00:01:31.312] 转发[MDS1](MDS_CLR_SUPTYPE)电文115[通过MDS1通道]到MRS成功.TelLen=120
+
+[00:01:31.348] ===> HandleTelH2150()
+[00:01:31.349] --- HandleTelH2150() ---
+               header:       telId = 2150, telLen = 80, telCnt = 356430
+               body          oprClrChg= 3369 , oprClrTenTrim= 18.000
+                             oprClrBndTrim= 0.000,oprClrPrTenTrim= 0.000 ,cprLinSpd= 1.000 ,clrLinSpd= 1.111 , clrTen= 5.536
+                             clrPrTen= 0.000,clrState= 3361 ,clrSlowDownRef= 1.000 ,clrSlowDownDist= -147.000 , spareWC02= 0
+                             spareWC03= 0, slowDownDvDt= 0.000, slowDownPos= 0.000 , clrStdId1= D353506200
+               
