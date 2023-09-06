@@ -869,55 +869,15 @@ class Syllabus(object):
         self.done_asc()
 
 
-def demo_insert_row():
-    # 创建一个Excel应用程序
-    app = xw.App(visible=False)  # 这里设置visible=False，可以使Excel应用程序在后台运行
-
-    # 打开现有的Excel工作簿
-    wb = xw.Book(r"C:\Projects\老婆\课表\ddd.xlsx")  # 替换为您的Excel文件路径
-
-    # 选择要操作的工作表
-    sheet = wb.sheets[0]  # 这里选择默认的第一个工作表
-
-    # 指定要在哪一行之前插入4行
-    insert_row = 3  # 例如，在第5行之前插入4行
-
-    # 使用shift方法插入4行
-    for i in range(4):
-        # sheet.range(f'A{insert_row}').api.EntireRow.Insert(Shift=xw.constants.InsertShiftDirection.xlShiftDown)
-        # 获取之前行的单元格属性
-        previous_row = sheet.range(f'A{insert_row + i}:AP{insert_row + i}').api.EntireRow
-
-        # 使用insert方法插入4行
-        sheet.range(f'A{insert_row + i}:AP{insert_row + i}').api.Insert(Shift=xw.constants.InsertShiftDirection.xlShiftDown)
-
-        # 应用之前行的单元格属性到新插入的行
-        new_rows = sheet.range(f'A{insert_row + i}:AP{insert_row + i}').api.EntireRow
-        new_rows.Copy(previous_row)
-
-        # 使用clear_contents方法删除整行的单元格值
-        sheet.range(f'A{insert_row + i}:AP{insert_row + i}').api.ClearContents()
-
-    # 保存Excel文件（如果需要）
-    wb.save()
-
-    # 关闭工作簿和Excel应用程序
-    wb.close()
-    app.quit()
-
-
-# {1: {'语': '张拉', '数': '玩老师', '英': '丽秋', '物': '赵老师'}}
 if __name__ == '__main__':
-    demo_insert_row()
     # 此处必须手动修改
     doesss = Syllabus('高1', r"C:\Projects\老婆\课表\高一课程表总表.xlsx")
     # 提取班级，教师 课程表和补课表，四张表
     # doesss.done()
 
     # 只提取老师和班级课程表
-    # doesss.done_syllabus()
+    doesss.done_syllabus()
     # doesss.sel_teacher_table()
-    # doesss.sel_classes_table()
     # 只提取班级和教师补课表
     # doesss.done_asc()
     # {1:[{语：张老师},]
