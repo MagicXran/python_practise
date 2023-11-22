@@ -1,11 +1,12 @@
 import telnetlib
 import time
+
 import winsound  # 蜂鸣器
 
 Delay_time = 1
 ''' 延迟'''
 
-filter_len = 10
+filter_len = 5
 ''' 过滤长度 '''
 
 # 定义亮晶晶的音节
@@ -34,9 +35,9 @@ def play_note(note, duration):
 def play_music():
     # 祝你生日快乐
     play_note(G4, duration)
-    play_note(G4, duration)
     # play_note(G4, duration)
-    play_note(A4, duration)
+    # play_note(G4, duration)
+    # play_note(A4, duration)
     # play_note(A4, duration)
     # play_note(B4, h)
     # play_note(G4, q)
@@ -59,12 +60,12 @@ def play_music():
 
 def beep():
     # 调用电脑蜂鸣器
-    # winsound.Beep(1899, 1000)
+    winsound.Beep(1899, 1000)
     # 循环播放音节
     # for note in notes:
     # winsound.Beep(note, duration)
     # 播放生日快乐曲目
-    play_music()
+    # play_music()
     # time.sleep(pause / 1000)  # 将毫秒转换为秒
 
 
@@ -121,9 +122,13 @@ def analyse_info(args: list, txt):
 
     """
     # least_line = self.tn.read_very_eager().decode('gbk')
-    # print(f"指定文本：{args}")
     try:
-        if args[0] in txt:
+        all_exist = 0
+        for ele in args:
+            if ele in txt:
+                all_exist = all_exist + 1
+
+        if all_exist == len(args):
             beep()
             if isShow:
                 print(txt)
@@ -193,9 +198,10 @@ class TelnetClient:
             while True:
                 # 获取命令结果
                 command_result = self.tn.read_very_eager().decode('gbk')
-                analyse_info(args, command_result)
                 if len(command_result) < filter_len:
                     time.sleep(Delay_time)  # return command_result
+                else:
+                    analyse_info(args, command_result)
 
         except BaseException as e:
             print("Unexpected Error in execute_some_command() : {}".format(e))
@@ -230,13 +236,17 @@ class TelnetClient:
             self.logout_host()
 
 
-def listen(ip, user='administrator', pwd='Nercar505', port=9110, args: list = ['ERR']):
+def listen(ip, user='administrator', pwd='Nercar505', port=9110, args=None):
+    if args is None:
+        args = ['ERR']
     telnet_client = TelnetClient()
     telnet_client.listening(ip, user, pwd, port, args)
 
 
 if __name__ == '__main__':
-    # listen('10.43.10.100', 'administrator', 'Nercar505', 9110)
+    # isShow = True
+    # listen('192.168.2.34', 'administrator', 'Sh0ugang', 9110, ['[ERR]', 'OpcPro'])
+
     args = build_argparser().parse_args()
     print(f"Type of args:{type(args)}")
     print(f"args.ip: {args.ip}")
@@ -246,6 +256,4 @@ if __name__ == '__main__':
     print(f"args.arg: {args.arg}, {type(args.arg)}")
     print(f"args.show: {args.show}")
     isShow = args.show
-
     listen(args.ip, args.user, args.pwd, args.port, args.arg)
-    # play_music()
